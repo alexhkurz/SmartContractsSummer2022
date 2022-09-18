@@ -4,7 +4,7 @@ Building up in four steps to a contract with the following specification:
 
 The contract knows a hidden integer in the interval [1,10]. Players can guess the number and bet money on it. The player who comes closest to the hidden number gets the money.
 
-## Exercises
+## Exercises (with solutions)
 
 - Write a smart contract that can receive money and send it back. Interface:
 
@@ -83,7 +83,9 @@ The contract knows a hidden integer in the interval [1,10]. Players can guess th
     }
     ```
 
-- The current solution incentivizes to pay as little as possible. Implement a variation that improves on this. 
+## Further Exercises (without solutions)
+
+- The last solution above incentivizes to pay as little as possible. Implement a variation that improves on this. 
 
 ## References
 
