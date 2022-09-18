@@ -14,7 +14,7 @@ The contract knows a hidden integer in the interval [1,10]. Players can guess th
         uint public paid; // amount paid
 
         function pay() public payable // payer sends money
-        function disburse() public // amount paid is send back to payer
+        function disburse() public // amount paid is sent back to payer
     }
     ```
     What happens if several players call the function `pay` "simultaneously"?
