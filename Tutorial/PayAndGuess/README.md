@@ -65,6 +65,8 @@ Exercises:
     - The paid amount cannot be 0.
     - The guesses must be integers in the range [1,10].
 
+    The requirements can go into the indicated place:
+    
     ```solidity
     contract PayAndGuess4 {
         ...
