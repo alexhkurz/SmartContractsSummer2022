@@ -91,7 +91,7 @@ The contract knows a hidden integer in the interval [1,10]. Players can guess th
 [`address payable`](https://docs.soliditylang.org/en/v0.8.7/types.html#address)  
 [`delete`](https://docs.soliditylang.org/en/v0.4.24/types.html#delete)  
 [`mapping`](https://docs.soliditylang.org/en/v0.8.7/types.html#mapping-types)  
-[`payable' for functions](https://docs.soliditylang.org/en/v0.8.7/cheatsheet.html?highlight=payable%20function#modifiers)  
+[`payable` for functions](https://docs.soliditylang.org/en/v0.8.7/cheatsheet.html?highlight=payable%20function#modifiers)  
 
 <!--
 ## Some links that look interesting but which I didn't read in detail
