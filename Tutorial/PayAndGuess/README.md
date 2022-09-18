@@ -50,11 +50,33 @@ Exercises:
 
 - Now let the payers be players that not only pay but also guess a number between 1 and 10. To disburse, pick a random number in this range, determine as the winner the player closest to this number and disburse to the winner.
 
+    ```solidity
+    contract PayAndGuess3 {
+        address payable[] public players;
+        mapping(address => uint) public paid;
+        mapping(address => uint) public guesses;
+        ...
+        }
+    ```
+
+
 - Add various requirements and error messages to the functions. (Adding requirements late can make debugging in the RemixIDE easier because requirements restrict the set of available tests.)
     - A player cannot payAndGuess twice.
     - The paid amount cannot be 0.
     - The guesses must be integers in the range [1,10].
-    - To disburse requires that at least one player has paid and guessed.
+
+    ```solidity
+    contract PayAndGuess4 {
+        ...
+        function doPlayAndGuess(uint guess) public payable {
+        <requirements here>
+        ...
+        }
+    ...
+    }
+    ```
+
+
 
 ## Some links that look interesting but which I didn't read in detail
 
