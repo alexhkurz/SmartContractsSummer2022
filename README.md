@@ -2,7 +2,7 @@
 
 (under construction)
 
-(contributors: Christopher Chang, Kevin Jeon, Ronan Kearns, Alexander Kurz, Sri Pranav, Subhash Prasad, Jun Yoon)
+(contributors: Christopher Chang, Kevin Jeon, Ronan Kearns, Alexander Kurz, Tyler Lewis, Sri Pranav, Subhash Prasad, Jun Yoon)
 
 [Tutorial](Tutorial/README.md)  
 ...
