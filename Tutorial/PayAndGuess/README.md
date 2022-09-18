@@ -2,7 +2,7 @@
 
 Building up in four steps to a contract with the following specification:
 
-The contract has a hidden integer in the interval [1,10]. Players can guess the number and bet money on it. The player who comes closest to the hidden number gets the money.
+The contract knows a hidden integer in the interval [1,10]. Players can guess the number and bet money on it. The player who comes closest to the hidden number gets the money.
 
 ## Exercises
 
@@ -90,8 +90,8 @@ The contract has a hidden integer in the interval [1,10]. Players can guess the 
 [Cheatsheet](https://docs.soliditylang.org/en/v0.8.7/cheatsheet.html?highlight=payable%20function#cheatsheet)  
 [`address payable`](https://docs.soliditylang.org/en/v0.8.7/types.html#address)  
 [`delete`](https://docs.soliditylang.org/en/v0.4.24/types.html#delete)  
-[`mapping`](https://docs.soliditylang.org/en/v0.8.7/types.html#mapping-types)
-[`payable' for functions](https://docs.soliditylang.org/en/v0.8.7/cheatsheet.html?highlight=payable%20function#modifiers)
+[`mapping`](https://docs.soliditylang.org/en/v0.8.7/types.html#mapping-types)  
+[`payable' for functions](https://docs.soliditylang.org/en/v0.8.7/cheatsheet.html?highlight=payable%20function#modifiers)  
 
 <!--
 ## Some links that look interesting but which I didn't read in detail
