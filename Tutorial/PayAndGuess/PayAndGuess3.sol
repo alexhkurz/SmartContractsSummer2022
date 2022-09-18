@@ -10,7 +10,7 @@ contract PayAndGuess3 {
     // address payable public winner; // for testing, otherwise private in disburse
     // uint public winAmount; // for testing, otherwise private in disburse
 
-    function doPlayAndGuess(uint guess) public payable {
+    function doPayAndGuess(uint guess) public payable {
         players.push(payable(msg.sender));
         paid[msg.sender] = msg.value;
         guesses[msg.sender] = guess;

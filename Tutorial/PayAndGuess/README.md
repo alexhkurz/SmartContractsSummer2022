@@ -69,7 +69,7 @@ Exercises:
     ```solidity
     contract PayAndGuess4 {
         ...
-        function doPlayAndGuess(uint guess) public payable {
+        function doPayAndGuess(uint guess) public payable {
         <requirements here>
         ...
         }
