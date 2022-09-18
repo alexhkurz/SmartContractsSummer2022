@@ -7,11 +7,11 @@ Exercises:
         address payable public payer; // address of the payer
         uint public paid; // amount paid
 
-        function doPay() public payable // payer sends money
+        function pay() public payable // payer sends money
         function disburse() public // amount paid is send back to payer
     }
     ```
-    What happens if several players call the function `doPay` "simultaneously"?
+    What happens if several players call the function `pay` "simultaneously"?
 
 - Extend the smart contract so that it remembers who sent money and how much. `disburse` works so that the contract acts as a FILO buffer (stack). Interface:
 
@@ -20,7 +20,7 @@ Exercises:
         address payable [] public payers; // list of payers
         mapping(address => uint) public paid; // amounts paid for each payer
 
-        function doPay() public payable // same as above
+        function pay() public payable // same as above
 
         function disburse() public // amount paid is send back to last payer
     }
@@ -69,7 +69,7 @@ Exercises:
     ```solidity
     contract PayAndGuess4 {
         ...
-        function doPayAndGuess(uint guess) public payable {
+        function payAndGuess(uint guess) public payable {
         <requirements here>
         ...
         }

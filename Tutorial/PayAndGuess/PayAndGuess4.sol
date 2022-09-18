@@ -10,7 +10,7 @@ contract PayAndGuess4 {
     // address payable public winner; // for testing, otherwise private in disburse
     // uint public winAmount; // for testing, otherwise private in disburse
 
-    function doPlayAndGuess(uint guess) public payable {
+    function payAndGuess(uint guess) public payable {
         require(!hasPlayed(payable(msg.sender)), "This address has already played.");
         require(msg.value > 0, "The paid amount must be positive.");
         require(1 <= guess && guess <= 10, "The guess must be within 1 and 10, inclusive.");

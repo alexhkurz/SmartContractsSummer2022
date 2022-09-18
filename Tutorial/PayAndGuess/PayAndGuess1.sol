@@ -6,7 +6,7 @@ contract PayAndGuess1 {
     address payable [] public payers; 
     mapping(address => uint) public paid;
 
-    function doPay() public payable {
+    function pay() public payable {
         payers.push(payable(msg.sender));
         paid[msg.sender] = msg.value;
     }

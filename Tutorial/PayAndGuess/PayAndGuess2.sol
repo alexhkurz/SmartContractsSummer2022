@@ -7,7 +7,7 @@ contract PayAndGuess2 {
     mapping(address => uint) public paid;
     // uint public luckyIndex; // for testing only, otherwise local to disburse()
 
-    function doPay() public payable {
+    function pay() public payable {
         payers.push(payable(msg.sender));
         paid[msg.sender] = msg.value;
     }
