@@ -1,4 +1,4 @@
-# SmartContracts Research at Chapman University
+# Smart Contracts Research at Chapman University
 
 (under construction)
 
