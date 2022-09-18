@@ -77,6 +77,10 @@ Exercises:
     }
     ```
 
+## References
+
+[`delete`](https://docs.soliditylang.org/en/v0.4.24/types.html#delete)  
+[`mapping`](https://docs.soliditylang.org/en/v0.8.7/types.html#mapping-types)
 
 <!--
 ## Some links that look interesting but which I didn't read in detail
