@@ -1,6 +1,6 @@
 Exercises:
 
-- Write a smart contract that can receive money and send it back:  
+- Write a smart contract that can receive money and send it back. Interface:
 
     ```solidity
     contract PayAndGuess0 {
@@ -13,38 +13,37 @@ Exercises:
     ```
     What happens if several players call the function `doPay` "simultaneously"?
 
-- Extend the smart contract so that it remembers who sent money and how much. `disburse` works so that the contract acts as a FIlO buffer (stack).
+- Extend the smart contract so that it remembers who sent money and how much. `disburse` works so that the contract acts as a FILO buffer (stack). Interface:
 
     ```solidity
     contract PayAndGuess1 {
-        address payable [] public payers; 
-        mapping(address => uint) public paid;
+        address payable [] public payers; // list of payers
+        mapping(address => uint) public paid; // amounts paid for each payer
 
-        function doPay() public payable 
+        function doPay() public payable // same as above
 
         function disburse() public // amount paid is send back to last payer
-            require(payers.length > 0, "No payments to disburse.");
-
     }
     ```
 
-- Now change `disburse` so that it picks a random player who gets everything that has been paid. 
+- Now change `disburse` so that it picks a random player who gets everything that has been paid. Interface:
 
     ```solidity
     contract PayAndGuess2 {
-        address payable [] public payers; 
-        mapping(address => uint) public paid;
-
-        function doPay() public payable
-
-        function disburse() public 
-            require(payers.length > 0, "No payments to disburse.");
-    
-        function random() private view returns(uint) {
-            return uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, payers)));
-        }
+        ...
+        function disburse() public // sends money to random winner
     }
     ```
+
+    A function that picks a random integer can be implemented as 
+
+    ```solidity    
+    function random() private view returns(uint) {
+        return uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, payers)));
+        }
+    ```
+
+    Such a function is not necessarily secure, but will do for now.
 
 - Given that the contract starts with balance 0, does the contract always disburse the sum of all payments? What happens if the same player plays twice? (We will see below an elegant way how to enforce that this cannot happen.) Find a test in the RemixIDE that leaves the contract with a positive balance after disbursing.
 
