@@ -66,7 +66,7 @@ Exercises:
     - The guesses must be integers in the range [1,10].
 
     The requirements can go into the indicated place:
-    
+
     ```solidity
     contract PayAndGuess4 {
         ...
@@ -79,9 +79,9 @@ Exercises:
     ```
 
 
-
+<!--
 ## Some links that look interesting but which I didn't read in detail
 
 - [Remix Debugger](https://medium.com/remix-ide/remix-debugger-b542ea24a0d)
-
+-->
 
