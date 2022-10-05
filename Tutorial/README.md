@@ -1,5 +1,7 @@
 (under construction)
 
+# README
+
 How to get started learning about smart contracts, etc, ...
 
 ## I am new to smart contract and want to know:
