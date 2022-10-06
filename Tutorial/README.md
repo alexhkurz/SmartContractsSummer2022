@@ -12,7 +12,7 @@ How to get started learning about smart contracts, etc, ...
 
 ## How can I learn to program my first smart contract?
 
-- [Remix IDE Walkthrough](https://hackmd.io/@JunYoon/BkfaCW_Zj/edit) (Jun and Subhash)
+- [Remix IDE Walkthrough](https://hackmd.io/@JunYoon/BkfaCW_Zj) (Jun and Subhash)
 - Jun and Subhash
 - [PayAndGuess](PayAndGuess/README.md)  
 
