@@ -21,7 +21,8 @@ How to get started learning about smart contracts, etc, ...
 
 ## I want to learn how to build a dApp that connects a smart contract with a web interface.
 
-- Ronan 
+- Intro
+  - [What is a dApp](https://hackmd.io/AVZKD53wQBmbKd5Ctxz3AQ)
 
 
 
