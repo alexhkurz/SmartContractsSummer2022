@@ -13,12 +13,11 @@ How to get started learning about smart contracts, etc, ...
 ## How can I learn to program my first smart contract?
 
 - [Remix IDE Walkthrough](https://hackmd.io/@JunYoon/BkfaCW_Zj) (Jun and Subhash)
-- Jun and Subhash
-- [PayAndGuess](PayAndGuess/README.md)  
+- Small examples and exercises: [PayAndGuess](PayAndGuess/README.md)  
 
-## I understand the basics about smart contracts and want to do a small project to learn more.
+<!--## I understand the basics about smart contracts and want to do a small project to learn more.
 
-- Jun and Subhash
+- Jun and Subhash-->
 
 ## I want to learn how to build a dApp that connects a smart contract with a web interface.
 
