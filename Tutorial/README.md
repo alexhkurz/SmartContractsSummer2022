@@ -24,7 +24,7 @@ How to get started learning about smart contracts, etc, ...
 - Intro
   - [What is a dApp](https://hackmd.io/AVZKD53wQBmbKd5Ctxz3AQ) (Ronan K.)
 - Connecting a dApp to the web
-  - [Building A Web UI](https://hackmd.io/UqFM8KQ6SCScLRQ5tMEdZA)
+  - [Building A Web3 UI](https://hackmd.io/UqFM8KQ6SCScLRQ5tMEdZA) (Ronan K.)
 
 
 
