@@ -2,7 +2,7 @@
 
 # Tutorial
 
-How to get started learning about smart contracts, etc, ...
+How to get started on smart contracts.
 
 ## I am new to smart contracts:
 
