@@ -6,8 +6,8 @@ How to get started learning about smart contracts, etc, ...
 
 ## I am new to smart contracts:
 
-- Why are smart contracts [interesting](https://hackmd.io/@alexhkurz/BywKgFiMj) to begin with? (Alex)
-- [What is blockchain?](https://hackmd.io/@RonanK/rymn1kTfs) (Ronan K.)
+- Why are smart contracts [interesting](https://hackmd.io/@alexhkurz/BywKgFiMj)? (Alex)
+- What is [blockchain technology](https://hackmd.io/@RonanK/rymn1kTfs)? (Ronan K.)
 - What [background](https://hackmd.io/@sripkunda/background-for-smart-contracts) should I know about smart contracts to understand more? (Sri)
 <!-- Why are NFTs so popular? (Ronan K.)-->
 
