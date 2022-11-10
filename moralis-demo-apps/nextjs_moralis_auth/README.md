@@ -18,4 +18,4 @@ start a server with
 npm run dev
 ```
 
-and then paste the url `http://localhost:3000` in your browser. For testing, follow the steps outlined at https://docs.moralis.io/docs/sign-in-with-metamask
+and then paste the url [`http://localhost:3000/signin`](http://localhost:3000/signin) in your browser. For testing, follow the steps outlined at https://docs.moralis.io/docs/sign-in-with-metamask
