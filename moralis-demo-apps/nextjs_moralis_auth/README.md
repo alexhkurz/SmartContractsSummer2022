@@ -5,17 +5,21 @@ This folder has been copied from https://github.com/MoralisWeb3/demo-apps/tree/m
 
 Documentation available at https://docs.moralis.io/docs/sign-in-with-metamask
 
-In this folder run once
+- First time: 
 
-```
-npm install moralis next-auth axios
-npm install wagmi ethers
-```
+    Using `.env.local.example` as a template, create a file `.env.local` that contains **Your API Key**, which should be available at [this url](https://admin.moralis.io/web3apis).
 
-start a server with
+    In this folder run
 
-```
-npm run dev
-```
+    ```
+    npm install moralis next-auth axios
+    npm install wagmi ethers
+    ```
 
-and then paste the url [`http://localhost:3000/signin`](http://localhost:3000/signin) in your browser. For testing, follow the steps outlined at https://docs.moralis.io/docs/sign-in-with-metamask
+- Each time you start the server run
+
+    ```
+    npm run dev
+    ```
+    
+    and then paste the url [`http://localhost:3000/signin`](http://localhost:3000/    signin) in your browser. For testing, follow the steps outlined at https://docs.    moralis.io/docs/sign-in-with-metamask
