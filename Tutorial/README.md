@@ -11,6 +11,10 @@ How to get started on smart contracts.
 - What [background](https://hackmd.io/@sripkunda/background-for-smart-contracts) should I know about smart contracts to understand more? (Sri)
 <!-- Why are NFTs so popular? (Ronan K.)-->
 
+## I heard of the basics and want to learn more:
+
+- Online course [Foundations of Blockchains](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA) by Tim Roughgarden, 2022.
+
 ## My first smart contract:
 
 - [Remix IDE walkthrough](https://hackmd.io/@JunYoon/BkfaCW_Zj) (Jun and Subhash)
