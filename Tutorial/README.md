@@ -13,7 +13,9 @@ How to get started on smart contracts.
 
 ## I heard of the basics and want to learn more:
 
-- Online course [Foundations of Blockchains](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA) by Tim Roughgarden, 2022.
+<!--Course https://web3.courses/teacher-training-track/01-intro-blockchain-smart-contracts/ by Jacob Lindahl-->
+
+- Video course [Foundations of Blockchains](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA) by Tim Roughgarden, 2022.
 
 ## My first smart contract:
 
