@@ -1,5 +1,3 @@
-(under construction)
-
 # Tutorial
 
 How to get started on smart contracts.
